@@ -1,0 +1,4 @@
+# app/config/config_dev.yml
+
+nelmio_alice:
+    locale: 'fr_FR' # Default locale for the Faker Generator

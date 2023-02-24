@@ -1,0 +1,5 @@
+App\Entity\Invoice:
+    invoice_{1..40}:
+        amount: <numberBetween(500, 3000)>
+        status: <randomElement(['SEND', 'PAID', 'CANCELLED'])>
+        sentAt: <dateTimeBetween('-2 years', 'now')>
